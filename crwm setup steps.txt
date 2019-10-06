@@ -1,0 +1,7 @@
+1- create-react-app crwm-clothing
+2- add SASS => yarn add node-sass
+3-create a style SCSS => style.scss
+
+
+// to remove file throught terminal
+1- rm -rf yarn.lock(file name)
