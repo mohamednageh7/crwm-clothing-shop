@@ -5,3 +5,9 @@
 
 // to remove file throught terminal
 1- rm -rf yarn.lock(file name)
+
+// if there were a version error 
+1- in package.json use this 
+"resolution":{
+"babel-jest":"24.7.1"
+}
