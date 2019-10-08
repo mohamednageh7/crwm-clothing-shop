@@ -14,9 +14,7 @@ class Directory extends React.Component {
 
     handleMenuData = () => {
         const data = this.state.section;
-        // console.log(data)
         return data.map(({id, ...otherSectionsprops}) => {
-            // console.log(item)
             return <MenuItem key={id} {...otherSectionsprops}/>
         })
     }
