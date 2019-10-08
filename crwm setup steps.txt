@@ -18,3 +18,5 @@
 3-firestore return two object refrence and snapshop
 4- refrence like => doc or collections
 5- we can use with doc => .get() , .update(), .set(), .delete() 
+
+// MVC => modal view controling
