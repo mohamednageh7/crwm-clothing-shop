@@ -29,3 +29,5 @@
 
 //reselect library it use so that my component don't rerender if my mapstatetoprops doesn't chage
 =>  yarn add reselect
+
+// six condition will get a false if i used them in a function => 0 , false , undefined, null, NaN, ""
