@@ -20,3 +20,9 @@
 5- we can use with doc => .get() , .update(), .set(), .delete() 
 
 // MVC => modal view controling
+
+// start to use redux
+1- install redux => yarn add redux redux-logger react-redux
+
+
+// utility function allow us to keep our files clean and organize functions that we may need in multiple files in one location

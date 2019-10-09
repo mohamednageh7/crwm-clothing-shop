@@ -12,8 +12,8 @@ const Collection = (props) => {
             <h1 className='title'>{title}</h1>
             <div className="preview">
                 {
-                    items.filter((item,index) => index < 4).map(({ id,...otherItemData }) => {
-                        return <CollectionItem key={id}  {...otherItemData}/>
+                    items.filter((item,index) => index < 4).map((item) => {
+                        return <CollectionItem key={item.id}  item={item}/>
                     }
                     )
 
