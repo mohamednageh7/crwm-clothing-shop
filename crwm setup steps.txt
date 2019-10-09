@@ -26,3 +26,6 @@
 
 
 // utility function allow us to keep our files clean and organize functions that we may need in multiple files in one location
+
+//reselect library it use so that my component don't rerender if my mapstatetoprops doesn't chage
+=>  yarn add reselect
