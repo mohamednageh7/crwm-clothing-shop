@@ -35,3 +35,7 @@
 
 //create a local storage using redux persist
 1- install library => yarn add redux persist
+
+//strip library for payment
+1- create a new account 
+2- install => yarn add react-stripe-checkout
