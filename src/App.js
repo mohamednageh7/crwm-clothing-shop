@@ -1,7 +1,7 @@
 import React from 'react';
 import HomePage from './pages/homepage/homepage.component';
 import ShopPage from './pages/shop/shop.component';
-import { Switch, Route, BrowserRouter,Redirect } from 'react-router-dom';
+import { Switch, Route,Redirect } from 'react-router-dom';
 import './App.css';
 import SignInAndSignUpPage from './pages/sign-in-and-sign-up/sign-in-and-sign-up.component';
 import CheckoutPage from '../src/pages/checkout-page/checkoutpage.component';
@@ -38,7 +38,7 @@ class App extends React.Component {
   }
   render() {
     return (
-      <BrowserRouter>
+      <div>
         <Header />
         <Switch>
           <Route path='/' component={HomePage} exact />
@@ -47,7 +47,7 @@ class App extends React.Component {
           this.props.currentUser? (<Redirect to='/' />):(<SignInAndSignUpPage/>)} />
           <Route path='/checkout' component={CheckoutPage}/>
         </Switch>
-      </BrowserRouter>
+      </div>
 
     );
   }

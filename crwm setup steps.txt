@@ -31,3 +31,7 @@
 =>  yarn add reselect
 
 // six condition will get a false if i used them in a function => 0 , false , undefined, null, NaN, ""
+
+
+//create a local storage using redux persist
+1- install library => yarn add redux persist
