@@ -55,6 +55,8 @@
 2- heroku git:remote -a (project name) => this will link between your project and heroku file you want to push your app to 
 3- delet our buildpack name => heroku buildpacks:remove (buildpack name)
 4-git push heroku master --force
+5- let heroku know my .env key => heroku config:set STRIPE_SECRET_KEY= (my key value )
+6- heroku open => to open my project
 
 
 
