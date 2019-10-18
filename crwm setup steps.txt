@@ -58,6 +58,12 @@
 5- let heroku know my .env key => heroku config:set STRIPE_SECRET_KEY= (my key value )
 6- heroku open => to open my project
 
+// write a gzip => this will decrease our js file size when it go to customer browser in heroku 
+
+1- yarn add compression => this library allow us to compress and gzip all of the files and chunk that we end up sending out from our server heroku
+
+
+
 
 
 

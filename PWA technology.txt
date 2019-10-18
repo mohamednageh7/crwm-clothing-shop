@@ -1,0 +1,6 @@
+// use PWA technology 
+1- get https for free from => let's Encrypt website 
+2- realfavicongenerator.net => this web site help to set my image to be an icon on different mobile screen size easily 
+3- service worker => is a sepreat server run by browser away from my app server
+
+4- download a library to redirect user to https request and heroku don't have this options so i use this library => yarn add express-sslify
