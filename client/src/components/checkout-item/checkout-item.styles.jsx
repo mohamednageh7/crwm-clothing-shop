@@ -21,8 +21,10 @@ export const ImageContainer = styled.div`
 `;
 
 export const TextContainer = styled.span`
-  width: 23%;
+  width: 23%;     
+  }
 `;
+
 
 export const QuantityContainer = styled(TextContainer)`
   display: flex;
